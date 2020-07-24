@@ -7,6 +7,6 @@ function changeSizes(){
     else if (image.width==150){
         image.width = 200;
     }
-    clicker__counter.textContent = Number(clicker__counter.textContent)+1
+
 };
-image.onclick=changeSizes;
+image.onclick=changeSizes
